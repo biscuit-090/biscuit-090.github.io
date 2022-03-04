@@ -11882,20 +11882,38 @@ fieldset:disabled .btn {
 
 .demodance {
     position: relative;
-    animation: demodance 15s;
+    animation: demodance 7s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-    scale: 1.2;
 }
 
 @keyframes demodance {
+    /* fade at start, go full right at 50%, fade out-flip-fade in, go left, fade out-flip-fade in */
     0% {
-        left: 0px;
+        left: -150px;
+        opacity: 0%;
+    }
+    10% {
+        opacity: 100%;
+    }
+    40% {
+        opacity: 100%;
+    }
+    49% {
+        transform: scaleX(1);
     }
     50% {
-        left: 400px;
+        left: 150px;
+        transform: scaleX(-1);
+        opacity: 0%;
+    }
+    90% {
+        opacity: 100%;
     }
     100% {
-        left: 0px;
+        transform: scaleX(-1);
+        left: -150px;
+        opacity: 0%;
     }
 }
 
