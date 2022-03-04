@@ -11947,20 +11947,20 @@ footer {
 
 @font-face {
     font-family: "bloxxdirty";
-    src: url("../fonts/tf2-fonts/borisblackbloxx-webfont.woff");
+    src: url("../../fonts/tf2-fonts/borisblackbloxx-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "bloxx";
-    src: url("../fonts/tf2-fonts/borisblackbloxxdirty-webfont.woff");
+    src: url("../../fonts/tf2-fonts/borisblackbloxxdirty-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "tf2build";
-    src: url("../fonts/tf2-fonts/tf2build-webfont.woff");
+    src: url("../../fonts/tf2-fonts/tf2build-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "tf2secondary";
-    src: url("../fonts/tf2-fonts/tf2secondary-webfont.woff");
+    src: url("../../fonts/tf2-fonts/tf2secondary-webfont.woff") format("woff");
 }
