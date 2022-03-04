@@ -11944,3 +11944,23 @@ footer {
     width: 100%;
     background-color: #272b2f !important;
 }
+
+@font-face {
+    font-family: "bloxxdirty";
+    src: url("../fonts/tf2-fonts/borisblackbloxx-webfont.woff");
+}
+
+@font-face {
+    font-family: "bloxx";
+    src: url("../fonts/tf2-fonts/borisblackbloxxdirty-webfont.woff");
+}
+
+@font-face {
+    font-family: "tf2build";
+    src: url("../fonts/tf2-fonts/tf2build-webfont.woff");
+}
+
+@font-face {
+    font-family: "tf2secondary";
+    src: url("../fonts/tf2-fonts/tf2secondary-webfont.woff");
+}
