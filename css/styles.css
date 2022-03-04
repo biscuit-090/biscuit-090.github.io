@@ -11935,3 +11935,12 @@ footer {
     border: 5px #444 solid;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #272b2f !important;
+}
