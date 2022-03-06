@@ -11964,3 +11964,32 @@ footer {
     font-family: "tf2secondary";
     src: url("../../fonts/tf2-fonts/tf2secondary-webfont.woff") format("woff");
 }
+
+nav {
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2) !important;
+}
+
+footer {
+    z-index: -1;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: 'tf2build';
+}
+
+.logo-image {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-span {
+    font-size: 25px;
+    margin-top: 2px;
+}
